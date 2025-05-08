@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm ls:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:hono.dev)"
+    ],
+    "deny": []
+  }
+}
