@@ -27,7 +27,7 @@ npm run start
 
 ### Environment Variables
 
-- `PORT` - Port to listen on (default: 3000)
+- `PORT` - Port to listen on (default: 8080)
 - `LOG_LEVEL` - Logging level (default: info)
 
 ### Docker
@@ -37,7 +37,7 @@ npm run start
 docker build -t template-service .
 
 # Run the container
-docker run -p 3000:3000 template-service
+docker run -p 8080:8080 template-service
 ```
 
 ## Deployment
