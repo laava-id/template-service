@@ -1,0 +1,28 @@
+{
+  "name": "template-service",
+  "version": "1.0.0",
+  "description": "Template Service for Deployments",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laava-id/template-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laava-id/template-service/issues"
+  },
+  "homepage": "https://github.com/laava-id/template-service#readme",
+  "dependencies": {
+    "@hono/node-server": "^1.14.1",
+    "hono": "^4.7.8",
+    "pino": "^9.6.0"
+  }
+}
